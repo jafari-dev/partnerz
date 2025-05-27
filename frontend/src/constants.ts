@@ -2,6 +2,7 @@ import { faker } from "@faker-js/faker";
 
 export const PRODUCTS = [
   {
+    id: "1",
     title: "CORSAIR VOID RGB ELITE Wireless Gaming Headset",
     description: `
       Stunning Sound: Hear everything from the lightest footstep to the most thundering explosion thanks to premium, custom-tuned 50mm high-density neodymium audio drivers with an expanded frequency range of 20Hz-30,000Hz.
@@ -13,6 +14,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/61oGokyedML._AC_SL1500_.jpg",
   },
   {
+    id: "2",
     title: "Razer Basilisk V3 Customizable Ergonomic Gaming Mouse",
     description: `
       ICONIC ERGONOMIC DESIGN WITH THUMB REST — PC gaming mouse favored by millions worldwide with a form factor that perfectly supports the hand while its buttons are optimally positioned for quick and easy access
@@ -29,6 +31,7 @@ export const PRODUCTS = [
     variants: ["Black", "White", "Red", "Blue", "Green"],
   },
   {
+    id: "3",
     title: "SteelSeries Arctis Nova 7 Wireless Multi-Platform Gaming Headset",
     description: `
       NEODYMIUM MAGNETIC DRIVERS — These drivers create an ultra-detailed soundscape of crystal clear highs, pinpoint mids, and deep bass for your space journey
@@ -42,6 +45,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/611LReeBjVL._AC_SL1500_.jpg",
   },
   {
+    id: "4",
     title:
       "ASUS TUF Gaming Z790-Plus WiFi LGA 1700 (Intel 14th, 12th & 13th Gen) ATX Gaming Motherboard",
     description: `
@@ -57,6 +61,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/81vwunw01KL._AC_SL1500_.jpg",
   },
   {
+    id: "5",
     title: "ARZOPA 16.1'' 144Hz Portable Gaming Monitor",
     description: `
       16.1" 144Hz Display: Arzopa Z1FC 16.1" portable monitor has 144Hz ultra-high refresh rate for higher motion clarity and smoother gaming visuals. The 144Hz high refresh rate brings lower input latency and higher videos, work and game screen quality（no adaptive sync or freesync）
@@ -68,6 +73,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/71-clY1wOUL._AC_SL1465_.jpg",
   },
   {
+    id: "6",
     title: "GMKtec M5 Plus Gaming Mini PC Ryzen 7 5825U",
     description: `
       【Office Gaming Mini PC】UPGRADED GMKtec Nucbox M5 Plus Series is equipped with the powerful AMD Ryzen 7 5825U processor, 8 Cores/16 Threads, Boost up to 4.50GHz, Based on the ZEN 3+ architecture, this small but powerful mini pc delivers satisfying results in productivity, office work, and gaming. 35% Performance increase over previous AMD Ryzen 7 5700U, 5600U, 5560U, 5500U.
@@ -80,6 +86,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/61LtrQX1E4L._AC_SL1500_.jpg",
   },
   {
+    id: "7",
     title: "GL.iNet GL-MT6000 (Flint 2) WiFi 6 Router with Wide Coverage",
     description: `
       ***Please update the firmware upon initial setup of the router, as it greatly enhances the device's performance and ensures a superior user experience.*** 【WiFi 6 Standard with ultra-low latency】Wi-Fi 6 speeds up to 6 Gbps to let you enjoy smoother 4K streaming, gaming, video calls and more, DDR4 1GB / eMMC 8GB
@@ -92,6 +99,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/61mSLh-ERLL._AC_SL1500_.jpg",
   },
   {
+    id: "8",
     title: "MSI Gaming RTX 5070 Ti 16G Ventus 3X OC Graphics Card",
     description: `
       16GB GDDR7, 256-bit, Extreme Performance: 2497 MHz, DisplayPort x 3 2.1a, HDMI 2.1b, NVIDIA Blackwell Architecture
@@ -104,6 +112,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/81Lsj0mjbpL._AC_SL1500_.jpg",
   },
   {
+    id: "9",
     title: "Skytech Chronos Gaming PC Desktop",
     description: `
       AMD Ryzen 7 9800X3D 4.7GHz (5.2GHz Turbo Boost) CPU Processor | 2TB Gen4 NVMe M.2 SSD – Up to 30x Faster Than Traditional HDD | 360mm AIO Liquid CPU Cooler with ARGB Fans, say goodbye to outdated and inefficient air coolers.
@@ -115,6 +124,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/71A9cMSgvFL._AC_SL1200_.jpg",
   },
   {
+    id: "10",
     title: "HapGIFT Gaming Chair",
     description: `
       Computer Chair with Massage Lumbar Support, Ergonomic Gaming Chair with Footrest, High Back Adjustable Technical Fabric with Headrest, Gamer Chair for Adults (Black-White)
@@ -127,6 +137,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/71M0xxt+BhL._AC_SL1500_.jpg",
   },
   {
+    id: "11",
     title:
       "Audioengine A2+ Desktop 24 Bit Wireless Bluetooth Desktop Speakers - 60W Computer Speakers for Music and Gaming",
     description: `
@@ -143,6 +154,7 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/51dqqbw2DhL._AC_SL1152_.jpg",
   },
   {
+    id: "12",
     title: "MAONO Dynamic Gaming Microphone",
     description: `
       Improve 50% Sound Details: Compared with similar competitors with a 16-bit/48kHz sampling rate, MAONO PD100XS gaming microphone adopts a frequency response of 40Hz-16KHz and a high 24-bit/48kHz sampling rate, Sound details improved by 50%, the pc microphone gaming conveys richer, clearer audio
