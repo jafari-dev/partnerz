@@ -7,6 +7,7 @@ function App() {
   return (
     <main style={{ minHeight: "100dvh" }}>
       <Routes>
+        <Route path="/" element={<Products />} />
         <Route path="/products" element={<Products />} />
         <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
