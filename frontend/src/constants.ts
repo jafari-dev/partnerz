@@ -10,7 +10,7 @@ export const PRODUCTS = [
       Optimized Omnidirectional Microphone: Picks up your voice with exceptional clarity, with a flip-up mute function and a built-in LED mute indicator.
       Durable Construction with Aluminum Yokes: Built to last through years of gaming.
     `,
-    image: "https://m.media-amazon.com/images/I/61oGokyedML._AC_SL1500_.jpg"
+    image: "https://m.media-amazon.com/images/I/61oGokyedML._AC_SL1500_.jpg",
   },
   {
     title: "Razer Basilisk V3 Customizable Ergonomic Gaming Mouse",
@@ -26,7 +26,7 @@ export const PRODUCTS = [
     `,
     image: "https://m.media-amazon.com/images/I/61AcT0ZuO3L._AC_SL1500_.jpg",
     price: 100,
-    variants: ["Black", "White", "Red", "Blue", "Green"]
+    variants: ["Black", "White", "Red", "Blue", "Green"],
   },
   {
     title: "SteelSeries Arctis Nova 7 Wireless Multi-Platform Gaming Headset",
@@ -42,7 +42,8 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/611LReeBjVL._AC_SL1500_.jpg",
   },
   {
-    title: "ASUS TUF Gaming Z790-Plus WiFi LGA 1700 (Intel 14th, 12th & 13th Gen) ATX Gaming Motherboard",
+    title:
+      "ASUS TUF Gaming Z790-Plus WiFi LGA 1700 (Intel 14th, 12th & 13th Gen) ATX Gaming Motherboard",
     description: `
       Intel LGA 1700 socket: Ready for 12thand13th Gen Intel Core processors, support PCIe 5.0,DDR5 and out of box Windows 11 ready
       Enhanced Power Solution: 16plus1 DrMOS, ProCool sockets, military-grade TUF components, and Digiplus VRM for maximum durability and performance
@@ -53,7 +54,7 @@ export const PRODUCTS = [
       New TUF Gaming Aesthetics: New ID design, Synchronizable LED effects across a vast portfolio of compatible PC gear, including addressable RGB strips with Aura Sync
       Immersive Gaming Audio and AI Noise Cancellation: The Realtek S1200A codec offers pristine audio quality to draw you deeper into the game action or to enhance your favorite music tracks or videos.Communicate clearly with ASUS AI Noise Canceling Mic technology
     `,
-    image: "https://m.media-amazon.com/images/I/81vwunw01KL._AC_SL1500_.jpg"
+    image: "https://m.media-amazon.com/images/I/81vwunw01KL._AC_SL1500_.jpg",
   },
   {
     title: "ARZOPA 16.1'' 144Hz Portable Gaming Monitor",
@@ -126,7 +127,8 @@ export const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/71M0xxt+BhL._AC_SL1500_.jpg",
   },
   {
-    title: "Audioengine A2+ Desktop 24 Bit Wireless Bluetooth Desktop Speakers - 60W Computer Speakers for Music and Gaming",
+    title:
+      "Audioengine A2+ Desktop 24 Bit Wireless Bluetooth Desktop Speakers - 60W Computer Speakers for Music and Gaming",
     description: `
       HIFI 24 BIT - 16 and 24 bit high resolution audio capable, great for all online streaming services and personal libraries
       BLUETOOTH 5.3 APTX-HD - Simple wireless connection from up to 100ft away with your smartphone or computer
@@ -156,7 +158,5 @@ export const PRODUCTS = [
 ].map((product) => ({
   ...product,
   price: faker.number.int({ min: 20, max: 1000 }),
-  variants: Array.from({ length: faker.number.int({ min: 2, max: 5 }) }, () =>
-    faker.color.human()
-  ),
+  variants: Array.from({ length: 3 }, () => faker.color.human()),
 }));
