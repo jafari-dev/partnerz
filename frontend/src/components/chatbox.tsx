@@ -34,7 +34,7 @@ const ChatBoxComponent = ({
   const [chats, setChats] = useState<{ question: string; answer: string }[]>(
     []
   );
-  console.log(12345,initialQuestion)
+
   const [questionText, setQuestionText] = useState(initialQuestion);
 
   const askQuestion = useCallback(async () => {
@@ -76,8 +76,6 @@ const ChatBoxComponent = ({
     return <Text as="p">{error}</Text>;
   }
 
-  console.log(123456,questionText)
-
   return (
     <Modal title={`Ask about ${title}`} open={isOpen} onClose={onClose}>
       <Card padding="400">
@@ -102,7 +100,7 @@ const ChatBoxComponent = ({
             onChange={setQuestionText}
           />
           <Button disabled={questionText.trim() === "" || isLoading} onClick={askQuestion}>
-            ASK
+            Ask
           </Button>
         </BlockStack>
       </Card>

@@ -10,6 +10,8 @@ import {
 } from "@shopify/polaris";
 import { ChatBox } from "./chatbox";
 
+const collapsibleStyles = { duration: "500ms", timingFunction: "ease-in-out" };
+
 interface Props {
   variants: string[];
   title: string;
@@ -80,11 +82,7 @@ const FAQsComponent: FC<Props> = ({ variants, title, description }) => {
         >
           FAQs
         </Button>
-        <Collapsible
-          open={open}
-          id={id}
-          transition={{ duration: "500ms", timingFunction: "ease-in-out" }}
-        >
+        <Collapsible open={open} id={id} transition={collapsibleStyles}>
           {isLoading ? <Spinner /> : null}
           {error ? <Text as="p">{error}</Text> : null}
           {faqs.length === 0 && !isLoading ? (
